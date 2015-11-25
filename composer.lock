@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ebb2181bfeb96745e737d6dca60b77ab",
+    "hash": "cafd51349f9a2efab7a4708fd9d3ff0d",
+    "content-hash": "f3e8ce17e5b14c8ea33c8cfed4e77224",
     "packages": [
         {
             "name": "composer/installers",
@@ -231,6 +232,26 @@
                 "environment"
             ],
             "time": "2015-05-30 16:15:01"
+        },
+        {
+            "name": "wpackagist-plugin/options-framework",
+            "version": "1.8.4",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/options-framework/",
+                "reference": "tags/1.8.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/options-framework.1.8.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/options-framework/"
         }
     ],
     "packages-dev": [],

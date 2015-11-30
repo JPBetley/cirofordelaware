@@ -3585,3 +3585,13 @@ div.navigation {
 	}
 	
 }
+
+#mission {
+    text-align: center;
+    background: #eeeeee;
+}
+    #mission p {
+        font-size: 18px;
+        line-height: 28px;
+        padding: 10px;
+    }

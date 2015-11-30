@@ -3589,6 +3589,7 @@ div.navigation {
 #mission {
     text-align: center;
     background: #eeeeee;
+    padding: 10px;
 }
     #mission p {
         font-size: 18px;

@@ -958,7 +958,7 @@ input[type="submit"].button_gray:hover,
 #home_content {
 	background-color: #ffffff;
     border-bottom: 1px solid #dcdcdc;
-    margin: -30px 0 30px;
+    margin: -30px 0 20px;
     padding: 45px 0 30px;
 }
 
@@ -3588,8 +3588,12 @@ div.navigation {
 
 #mission {
     text-align: center;
-    background: #eeeeee;
+    background: #0F2465;
+    color: #ffffff;
     padding: 10px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
 }
     #mission p {
         font-size: 18px;

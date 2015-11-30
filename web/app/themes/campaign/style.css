@@ -1179,7 +1179,7 @@ input[type="submit"].button_gray:hover,
 
 .wp_email_capture_wrap input[type="text"] {
     margin: 0 0 10px;
-    width: 238px !important;
+    width: 218px !important;
     text-align: center;
     font-size: 12px;
     font-weight: bold;
@@ -2950,7 +2950,7 @@ div.navigation {
 	}
 
 	#sidebar .widget_testimonial h4 {
-	    margin: 0
+	    margin: 0;
 	}
 
 	#sidebar .wp_email_capture_wrap input[type="text"] {

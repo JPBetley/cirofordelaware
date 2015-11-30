@@ -24,12 +24,13 @@
 			</div>
 		</div>
 		<?php endif; // END SLIDES ?>
-		
+		<?php /*
 		<div id="slide_widget">
 			<div id="slide_widget_inner">
 				<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Top_Sidebar') ) : endif; ?>
 			</div>
 		</div>
+		*/ ?>
 		<div class="clear"></div>
 	</div>
 	

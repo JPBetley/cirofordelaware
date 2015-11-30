@@ -9,7 +9,7 @@
 			</div>
 			<?php } ?>
 			<?php if (get_post_meta($post->ID, '_dc_slide_link', true) != '') { ?><a href="<?php echo get_post_meta($post->ID, '_dc_slide_link', true);?>" title="<?php the_title(); ?>"><?php } ?>
-				<?php the_post_thumbnail( 'slide_image', array('alt' => get_the_title()) ); ?>
+				<?php the_post_thumbnail(); ?>
 			<?php if (get_post_meta($post->ID, '_dc_slide_link', true) != '') { ?></a><?php } ?>
 		</div>
 	<?php } else { ?>

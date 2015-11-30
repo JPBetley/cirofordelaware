@@ -1139,13 +1139,18 @@ input[type="submit"].button_gray:hover,
 }
 
 .wp_email_capture_wrap {
-    padding: 0 20px;
+    padding: 20px !important;
     text-align: center;
     color: #757575;
+    background-color: #F5F5F5;
 }
 
     .wp_email_capture_wrap form {
         margin-top: 10px
+    }
+    
+    .wp_email_capture_wrap > p {
+        display: none;
     }
 
 #slide_widget .wp_email_capture_wrap {
@@ -1159,8 +1164,9 @@ input[type="submit"].button_gray:hover,
     text-transform: none;
 }
 
-.wp_email_capture_wrap h3 {
+.wp_email_capture_wrap h4 {
     text-transform: uppercase;
+    font-size: 20px;
     margin: 0 !important;
     padding-bottom: 50px !important;
     background: url("images/stars.png") bottom center no-repeat transparent;
@@ -1182,7 +1188,6 @@ input[type="submit"].button_gray:hover,
 }
 
 #sidebar .wp_email_capture_wrap input[type="text"] {
-    width: 258px !important
 }
 
 /* SlabText */
@@ -1256,7 +1261,6 @@ h1.slabtextdone {
 }
 
 #slides {
-    width: 600px;
     max-width: 100%;
     height: auto;
     position: relative;
@@ -1270,7 +1274,6 @@ h1.slabtextdone {
     border: 0;
     display: block;
     height: auto;
-    width: 600px;
     background-color: #FEFEFE;
     max-width: 100%;
 }
@@ -1285,7 +1288,6 @@ h1.slabtextdone {
 
 .slides_container {
     height: auto;
-    width: 600px;
     max-width: 100%;
     overflow: hidden;
     -webkit-border-radius: 5px;
@@ -1314,7 +1316,6 @@ h1.slabtextdone {
     }
 
     .slides_container div {
-        width: 600px;
         height: auto;
         max-width: 100%;
         display: block;

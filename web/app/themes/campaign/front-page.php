@@ -30,8 +30,8 @@
 				<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Top_Sidebar') ) : endif; ?>
 			</div>
 		</div>
-		*/ ?>
 		<div class="clear"></div>
+		*/ ?>
 	</div>
 	
 	<?php if (count( $sb_count['Home_Page_Banner']) != '0') { ?>

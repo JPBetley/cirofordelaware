@@ -3600,3 +3600,16 @@ div.navigation {
         line-height: 28px;
         padding: 10px;
     }
+
+#accomplishments {
+    background-color: #eeeeee;
+    padding: 1px 20px 20px;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+#home_content p {
+    font-size: 16px;
+    line-height: 24px;
+}

@@ -2767,7 +2767,7 @@ div.navigation {
 	    position: relative;
 	    top: 4px;
 	    z-index: 10;
-	    width: 280px !important;
+	    width: 100% !important;
 	    height: 41px !important;
 	    line-height: 26px;
 	    -webkit-appearance: menulist-button;
@@ -2783,7 +2783,7 @@ div.navigation {
 	    bottom: 0;
 	    float: left;
 	    left: 0;
-	    width: 280px;
+	    width: 100%;
 	    height: 42px;
 	    line-height: 43px;
 	    font-size: 14px;
@@ -2792,6 +2792,10 @@ div.navigation {
 	    text-indent: 50px;
 	    background: url("images/select.png") 0 0 no-repeat transparent;
 	    background-size: 280px 43px;
+        background-color: #005088;
+        border-radius: 5px 5px 5px 5px;
+        -moz-border-radius: 5px 5px 5px 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
 	    cursor: default;
 	    z-index: 1;
 	    top: 3px;
@@ -2953,7 +2957,7 @@ div.navigation {
 	}
 
 	#sidebar .wp_email_capture_wrap input[type="text"] {
-	    width: 178px !important
+	    width: 138px !important
 	}
 	
 	#sidebar #searchform input#s[type="text"] {
@@ -3152,7 +3156,7 @@ div.navigation {
 	    display: block;
 	    position: relative;
 	    z-index: 10;
-	    width: 280px !important;
+	    width: 100% !important;
 	    height: 41px !important;
 	    line-height: 26px;
 	    -webkit-appearance: menulist-button;
@@ -3166,7 +3170,7 @@ div.navigation {
 	    position: absolute;
 	    bottom: 0;
 	    left: 0;
-	    width: 280px;
+	    width: 100%;
 	    height: 42px;
 	    line-height: 43px;
 	    font-size: 14px;
@@ -3175,6 +3179,10 @@ div.navigation {
 	    text-indent: 50px;
 	    background: url("images/select.png") 0 0 no-repeat transparent;
 	    background-size: 280px 43px;
+        background-color: #005088;
+        border-radius: 5px 5px 5px 5px;
+        -moz-border-radius: 5px 5px 5px 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
 	    cursor: default;
 	    z-index: 1;
 	    top: 3px;
@@ -3279,7 +3287,7 @@ div.navigation {
 	#footer_widgets,
 	#home_widgets,
 	#latest-posts-title {
-	    width: 280px !important
+	    width: 90% !important
 	}
 
 	#home_video,
@@ -3331,7 +3339,7 @@ div.navigation {
 
 	#footer_widgets .footer_widget,
 	#home_widgets .widget {
-	    width: 280px !important;
+	    width: 90% !important;
 	    margin: 0 0 40px!important;
 	    float: none !important;
 	}

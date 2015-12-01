@@ -2764,7 +2764,7 @@ div.navigation {
 	    position: relative;
 	    top: 4px;
 	    z-index: 10;
-	    width: 100% !important;
+	    width: 75% !important;
 	    height: 41px !important;
 	    line-height: 26px;
 	    -webkit-appearance: menulist-button;
@@ -2780,7 +2780,7 @@ div.navigation {
 	    bottom: 0;
 	    float: left;
 	    left: 0;
-	    width: 100%;
+	    width: 75%;
 	    height: 42px;
 	    line-height: 43px;
 	    font-size: 14px;

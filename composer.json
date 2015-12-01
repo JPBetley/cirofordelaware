@@ -40,7 +40,8 @@
     "wpackagist-plugin/options-framework": "^1.8",
     "wpackagist-plugin/wp-email-capture": "2.11",
     "wpackagist-plugin/wp-mail-smtp": "^0.9.5",
-    "wpackagist-plugin/the-events-calendar": "^3.12"
+    "wpackagist-plugin/the-events-calendar": "^3.12",
+    "wpackagist-plugin/akismet": "^3.1"
   },
   "extra": {
     "installer-paths": {

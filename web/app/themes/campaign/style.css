@@ -3028,7 +3028,7 @@ div.navigation {
 	    border-color: none;
 	    border-style: none;
 	    border-width: 0;
-	    padding: 40px 20px;
+	    padding: 40px 0px !important;
 	}
 
 	#content {

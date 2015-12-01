@@ -1008,7 +1008,6 @@ input[type="submit"].button_gray:hover,
 	.single_latest .single_latest_img_link img.campaign_fallback {
 		max-width: 170px;
 		width: auto;
-		max-height: 120px;
 		height: auto;
 	}
 
@@ -3099,7 +3098,6 @@ div.navigation {
 	}
 
 	#the_logo {
-	    margin: 0 auto 20px;
 	    text-align: center;
 	    max-height: none !important;
 	    height: auto;
@@ -3119,6 +3117,10 @@ div.navigation {
 	        max-width: 100%;
 	        display: block;
 	    }
+
+    #searchform {
+        display: none;
+    }
 
 	#main_menu #donate_now {
 	    float: none !important;

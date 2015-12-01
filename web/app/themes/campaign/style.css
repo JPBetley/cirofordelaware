@@ -3284,7 +3284,8 @@ div.navigation {
 	#footer_widgets,
 	#home_widgets,
 	#latest-posts-title {
-	    width: 90% !important
+	    width: 90% !important;
+        margin: 0 auto;
 	}
 
 	#home_video,
@@ -3337,7 +3338,7 @@ div.navigation {
 	#footer_widgets .footer_widget,
 	#home_widgets .widget {
 	    width: 90% !important;
-	    margin: 0 0 40px!important;
+	    margin: 0 auto 40px!important;
 	    float: none !important;
 	}
 

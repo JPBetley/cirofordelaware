@@ -2208,23 +2208,15 @@ div.navigation {
 }
 
 .body_boxed.content_left #content .container {
-    background-image: url("images/bg_sidebar_right.png");
-    background-repeat: repeat-y;
-    background-position: right top;
 }
 
 .page-template-default.body_boxed.content_left #content .container {
-    background-image: url("images/bg_sidebar_right.png") !important
 }
 
 .body_boxed.content_right #content .container {
-    background-image: url("images/bg_sidebar_left.png");
-    background-repeat: repeat-y;
-    background-position: left top;
 }
 
 .page-template-default.body_boxed.content_right #content .container {
-    background-image: url("images/bg_sidebar_left.png") !important
 }
 
 .page-template-page-full-php #content .container {

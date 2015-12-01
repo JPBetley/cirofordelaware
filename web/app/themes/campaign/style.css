@@ -3119,7 +3119,7 @@ div.navigation {
 	        display: block;
 	    }
 
-    #searchform {
+    #logo_wrap #searchform {
         display: none;
     }
 

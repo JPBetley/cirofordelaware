@@ -81,51 +81,8 @@
 		</div>
 		<?php } ?>
 	
-		<?php // START NEWS LOOP ?>
-		<?php if (of_get_option('home_posts_selection') == 'posts_all') {
-		$home_posts = array(
-			'orderby'      => 'desc',
-			'post_type'    => 'post',
-			'post_status'  => 'publish',
-			'posts_per_page' => ''. stripslashes(of_get_option('home_posts_total')) .''
-		);
-		} else {
-		$home_posts = array(
-			'orderby'      => 'desc',
-			'post_type'    => 'post',
-			'post_status'  => 'publish',
-			'posts_per_page' => ''. stripslashes(of_get_option('home_posts_total')) .'',
-			'cat' => ''. stripslashes(of_get_option('home_posts_cat')) .''
-		); } ?>
-		<?php $query_default = new WP_Query($home_posts);
-		if ( $query_default->have_posts() ) : ?>
-		<div id="home_latest_posts">
-			<h4 class="entry-title" id="latest-posts-title"><?php echo stripslashes(of_get_option('home_posts_title')); ?></h4>
-			<?php while ( $query_default->have_posts() ) : $query_default->the_post(); global $more; $more = 0; ?>
-			<div class="single_latest left">
-				<a href="<?php the_permalink() ?>" title="<?php the_title(); ?>" class="single_latest_img_link">
-					<?php if (has_post_thumbnail()) { ?>
-						<?php the_post_thumbnail( 'single_latest', array('alt' => get_the_title()) ); ?>
-					<?php } elseif (of_get_option('campaign_fallback') != '') { ?>
-						<img src="<?php echo stripslashes(of_get_option('campaign_fallback')); ?>" alt="<?php the_title(); ?>" class="campaign_fallback" />
-					<?php } else { ?>
-						<img src="<?php echo get_template_directory_uri(); ?>/images/latest_fallback.png" alt="<?php the_title(); ?>" />
-					<?php } ?>
-				</a>
-				<h5><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h5>
-				<div class="meta">
-					<?php the_time(get_option( 'date_format' )); ?>	
-				</div>
-			</div>
-		<?php endwhile; ?>
-			<div class="clear"></div>
-		</div>
-		<?php else : // else; no posts
-	
-		endif; ?>
 		<?php wp_reset_query(); // END NEWS LOOP ?>
 	
 	</div>
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
